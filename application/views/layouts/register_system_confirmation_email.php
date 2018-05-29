@@ -1,0 +1,408 @@
+<table style="background-color: #9999ff" align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+    <tr>
+        <td align="center" valign="top" id="bodyCell">
+            <!-- BEGIN TEMPLATE // -->
+            <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateContainer">
+                <tr>
+                    <td align="center" valign="top">
+                        <!-- BEGIN HEADER // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                            <tr>
+                                <td valign="top" class="headerContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+                                        <tbody class="mcnTextBlockOuter">
+                                            <tr>
+                                                <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                                                        <tbody><tr>
+
+                                                                <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                                                                    <h1 style="text-align: center">Olá  <?= $name ?>,<br>
+                                                                        Seja bem-vindo ao elearning !</h1>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table></td>
+                                            </tr>
+                                        </tbody>
+                                    </table></td>
+                            </tr>
+                        </table>
+                        <!-- // END HEADER -->
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="borderBar" background="https://gallery.mailchimp.com/27aac8a65e64c994c4416d6b8/images/diagborder.png">
+                        <img src="https://gallery.mailchimp.com/2425ea8ad3/images/blank.gif" height="5" width="5" style="display:block;">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top">
+                        <!-- BEGIN UPPER BODY // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="100" id="templateUpperBody">
+                            <tr>
+                                <td valign="top" class="upperBodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+                                        <tbody class="mcnImageBlockOuter">
+                                            <tr>
+                                                <td valign="top" style="padding:0px" class="mcnImageBlockInner">
+                                                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+                                                        <tbody><tr>
+                                                                <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
+                                                                    <img align="center" alt="" src="https://gallery.mailchimp.com/b6adb3ae79df77cf59111e0a4/images/65cd025f-585e-4ece-997d-02b59b82dda8.jpg" width="250" style="max-width:250px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table></td>
+                            </tr>
+                        </table>
+                        <!-- // END UPPER BODY -->
+                    </td>
+                </tr>
+                <tr>
+                    <td class="borderBar" background="https://gallery.mailchimp.com/27aac8a65e64c994c4416d6b8/images/diagborder.png">
+                        <img src="https://gallery.mailchimp.com/2425ea8ad3/images/blank.gif" height="5" width="5" style="display:block;">
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top">
+                        <!-- BEGIN HEADER // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateHeader">
+                            <tr>
+                                <td valign="top" class="headerContainer">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+                                        <tbody class="mcnTextBlockOuter">
+                                            <tr>
+                                                <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                                                        <tbody><tr>
+
+                                                                <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                                                                    <h2 style="text-align: center">Você foi matriculado na disciplina:
+                                                                        <br><strong><?= $discipline ?></strong></h2>
+                                                                    <h3 style="text-align: center"> Siga as orientações de acesso abaixo e tenha um bom estudo!</h3>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table></td>
+                                            </tr>
+                                        </tbody>
+                                    </table></td>
+                            </tr>
+                        </table>
+                        <!-- // END HEADER -->
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top">
+                        <!-- BEGIN COLUMNS // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateColumns">
+                            <tr>
+                                <td align="left" valign="top" class="columnsContainer" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateColumn">
+                                        <tr>
+                                            <td valign="top" class="leftColumnContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+                                                    <tbody class="mcnTextBlockOuter">
+                                                        <tr>
+                                                            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+                                                                <!--[if mso]>
+                                                                                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                                                                                <tr>
+                                                                                <![endif]-->
+
+                                                                <!--[if mso]>
+                                                                <td valign="top" width="300" style="width:300px;">
+                                                                <![endif]-->
+                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                                                                    <tbody><tr>
+
+                                                                            <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+
+                                                                                <h4>Seus seus dados de acesso são:</h4>
+
+                                                                                <h2>Login:<?= $login ?>                                                                            
+                                                                                    <br>Senha: <?= $password ?> </h2>
+
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody></table>
+                                                                <!--[if mso]>
+                                                                </td>
+                                                                <![endif]-->
+
+                                                                <!--[if mso]>
+                                                                </tr>
+                                                                </table>
+                                                                <![endif]-->
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td align="left" valign="top" class="columnsContainer" width="50%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateColumn">
+                                        <tr>
+                                            <td valign="top" class="rightColumnContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+                                                    <tbody class="mcnTextBlockOuter">
+                                                        <tr>
+                                                            <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+                                                                <!--[if mso]>
+                                                                                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                                                                                <tr>
+                                                                                <![endif]-->
+
+                                                                <!--[if mso]>
+                                                                <td valign="top" width="300" style="width:300px;">
+                                                                <![endif]-->
+                                                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                                                                    <tbody><tr>
+
+                                                                            <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;">
+                                                                                <h4>Inicie seu aprendizado.</h4>
+
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody></table>
+                                                                <!--[if mso]>
+                                                                </td>
+                                                                <![endif]-->
+
+                                                                <!--[if mso]>
+                                                                </tr>
+                                                                </table>
+                                                                <![endif]-->
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width:100%;">
+                                                    <tbody class="mcnButtonBlockOuter">
+                                                        <tr>
+                                                            <td style="padding-top:0; padding-right:18px; padding-bottom:18px; padding-left:18px;" valign="top" align="center" class="mcnButtonBlockInner">
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 3px;background-color: #008200;">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 20px; padding: 15px;">
+                                                                                <a class="mcnButton " title="Acesse Agora" href="http://elearning.fmrp.usp.br/ead" target="_self" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">Acesse Agora</a>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // END COLUMNS -->
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top">
+                        <!-- BEGIN LOWER BODY // -->
+                        <table border="0" cellpadding="0" cellspacing="0" width="600" id="templateLowerBody">
+                            <tr>
+                                <td valign="top" class="lowerBodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width:100%;">
+                                        <tbody class="mcnTextBlockOuter">
+                                            <tr>
+                                                <td valign="top" class="mcnTextBlockInner" style="padding-top:9px;">
+                                                    <!--[if mso]>
+                                                                    <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                                                                    <tr>
+                                                                    <![endif]-->
+
+                                                    <!--[if mso]>
+                                                    <td valign="top" width="600" style="width:600px;">
+                                                    <![endif]-->
+                                                    <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width:100%; min-width:100%;" width="100%" class="mcnTextContentContainer">
+                                                        <tbody><tr>
+
+                                                                <td valign="top" class="mcnTextContent" style="padding-top:0; padding-right:18px; padding-bottom:9px; padding-left:18px;font-size: 16px;">
+                                                                    Após realizar seu login na plataforma, por favor preencha corretamente aos questionários localizados na seção
+
+                                                                    <a class="mcnButton " title="Meu Perfil" href="http://elearning.fmrp.usp.br/ead/home/profile" target="_self" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;"><strong>Meu Perfil</strong></a>
+                                                                    , conforme desmontrado na imagem abaixo ,desta forma podemos lhe providenciar uma melhor experiência.
+                                                                </td>
+                                                            </tr>
+                                                        </tbody></table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100" id="templateUpperBody">
+                                            <tr>
+                                                <td valign="top" class="upperBodyContainer"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width:100%;">
+                                                        <tbody class="mcnImageBlockOuter">
+                                                            <tr>
+                                                                <td valign="top" style="padding:0px" class="mcnImageBlockInner">
+                                                                    <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width:100%;">
+                                                                        <tbody><tr>
+                                                                                <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
+                                                                                    <img align="center" alt="" src="<?= $this->config->base_url(IMGPATH . 'meuperfil.png') ?>" width="500" style="max-width:550px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage">
+                                                                                </td>
+                                                                            </tr>
+                                                                        </tbody></table>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table></td>
+                                            </tr>
+                                        </table>
+                            </tr>
+                            </tbody>
+                        </table></td>
+                </tr>
+            </table>
+        </td>
+
+    </tr>
+</table>
+
+
+<!--<table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;border: 20px solid #ffffff;max-width: 600px !important;">
+    <tbody><tr>
+            <td valign="top" id="templatePreheader" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #f9ead9;border-top: 20px none #ffffff;border-bottom: 0;padding-top: 9px;padding-bottom: 9px;"></td>
+        </tr>
+        <tr>
+            <td valign="top" id="templateHeader" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #f9ead9;border-top: 0;border-bottom: 0;padding-top: 9px;padding-bottom: 0;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnImageBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody class="mcnImageBlockOuter">
+                        <tr>
+                            <td valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" class="mcnImageBlockInner">
+                                <table align="left" width="100%" border="0" cellpadding="0" cellspacing="0" class="mcnImageContentContainer" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <tbody><tr>
+                                            <td class="mcnImageContent" valign="top" style="padding-right: 9px;padding-left: 9px;padding-top: 0;padding-bottom: 0;text-align: center;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <img align="center" alt="" src="https://gallery.mailchimp.com/a87455149f1e6490bb700467e/images/eda6b1dd-6210-4038-aafd-8740e2b137ba.png" width="564" style="max-width: 600px;padding-bottom: 0;display: inline !important;vertical-align: bottom;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" class="mcnImage">
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table></td>
+        </tr>
+        <tr>
+            <td valign="top" id="templateBody" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #f9ead9;border-top: 0;border-bottom: 2px none #EAEAEA;padding-top: 0;padding-bottom: 9px;"><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnTextBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody class="mcnTextBlockOuter">
+                        <tr>
+                            <td valign="top" class="mcnTextBlockInner" style="padding-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                [if mso]>
+                                                <table align="left" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                                                <tr>
+                                                <![endif]
+
+                                [if mso]>
+                                <td valign="top" width="600" style="width:600px;">
+                                <![endif]
+                                <table align="left" border="0" cellpadding="0" cellspacing="0" style="max-width: 100%;min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%" class="mcnTextContentContainer">
+                                    <tbody><tr>
+
+                                            <td valign="top" class="mcnTextContent" style="padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;text-align: left;">
+
+                                                <h1 class="null" style="text-align: center;display: block;margin: 0;padding: 0;color: #202020;font-family: Helvetica;font-size: 26px;font-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal;"><br>
+                                                    <span style="font-family:georgia,times,times new roman,serif"><span style="font-size:42px">Confirmação de cadastro</span></span></h1>
+
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                [if mso]>
+                                </td>
+                                <![endif]
+
+                                [if mso]>
+                                </tr>
+                                </table>
+                                <![endif]
+                            </td>
+                        </tr>
+                    </tbody>
+                </table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+                    <tbody class="mcnDividerBlockOuter">
+                        <tr>
+                            <td class="mcnDividerBlockInner" style="min-width: 100%;padding: 28px 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 1px solid #999999;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <tbody><tr>
+                                            <td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <span></span>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                            
+                                                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                                                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+                                
+                            </td>
+                        </tr>
+                    </tbody>
+                </table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody class="mcnCaptionBlockOuter">
+                        <tr>
+                            <td class="mcnCaptionBlockInner" valign="top" style="padding: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightContentOuter" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <tbody><tr>
+                                            <td valign="top" class="mcnCaptionRightContentInner" style="padding: 0 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                    <tbody><tr>
+                                                            <td class="mcnCaptionRightImageContent" valign="top" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                                <img alt="" src="https://gallery.mailchimp.com/a87455149f1e6490bb700467e/images/c68105f2-a0ea-4a49-8728-718dae31c3d8.png" width="140" style="max-width: 140px;border: 0;height: auto;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" class="mcnImage">
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                <table class="mcnCaptionRightTextContentContainer" align="right" border="0" cellpadding="0" cellspacing="0" width="339" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                    <tbody><tr>
+                                                            <td valign="top" class="mcnTextContent" style="text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helvetica;font-size: 16px;line-height: 150%;">
+                                                                <span style="font-size:18px">Ola , seus dados de acesso são</span><br>
+                                                             
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+                    <tbody class="mcnDividerBlockOuter">
+                        <tr>
+                            <td class="mcnDividerBlockInner" style="min-width: 100%;padding: 28px 18px 38px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 1px solid #999999;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <tbody><tr>
+                                            <td style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <span></span>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                            
+                                                <td class="mcnDividerBlockInner" style="padding: 18px;">
+                                                <hr class="mcnDividerContent" style="border-bottom-color:none; border-left-color:none; border-right-color:none; border-bottom-width:0; border-left-width:0; border-right-width:0; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0;" />
+                                
+                            </td>
+                        </tr>
+                    </tbody>
+                </table><table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnButtonBlock" style="min-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                    <tbody class="mcnButtonBlockOuter">
+                        <tr>
+                            <td style="padding-top: 0;padding-right: 18px;padding-bottom: 18px;padding-left: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top" align="center" class="mcnButtonBlockInner">
+                                <table border="0" cellpadding="0" cellspacing="0" class="mcnButtonContentContainer" style="border-collapse: separate !important;border-radius: 3px;background-color: #2BAADF;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial;font-size: 16px;padding: 15px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                                                <a class="mcnButton " title="Acessar Elearning" href="http://elearning.fmrp.usp.br/ead" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;display: block;">Acessar Elearning</a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table></td>
+        </tr>
+        <tr>
+            <td valign="top" id="templateFooter" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #f9ead9;border-top: 0;border-bottom: 20px none #ffffff;padding-top: 9px;padding-bottom: 9px;"></td>
+        </tr>
+    </tbody>
+</table>-->
